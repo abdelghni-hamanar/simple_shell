@@ -120,6 +120,9 @@ typedef struct builtin
 } builtin_table;
 
 
+/* looper */
+int _loophsh(char **);
+
 /* shell-tools.c - contains main function need it */
 /* for our shell project */
 int _hsh(info_t *, char **);
