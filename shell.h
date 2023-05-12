@@ -183,10 +183,9 @@ char *_convert_number(long int, int, int);
 void _remove_comment(char *);
 
 /* shell-builtin.c - contains function handling builtin */
-/* like cd →→  exit →→  help */
+/* like cd →→  exit */
 int _myexit(info_t *);
 int _mycd(info_t *);
-int _myhelp(info_t *);
 
 /* shell-builtin1.c - continue →→ */
 /* this time for history and alias */
@@ -195,6 +194,10 @@ int _unset_alias(info_t *, char *);
 int _set_alias(info_t *, char *);
 int _print_alias(info_t *);
 int _myalias(info_t *);
+
+/* shell-builtin2.c continue →→→ */
+/* contains help */
+int _myhelp(info_t *);
 
 /* shell-getline.c - implement getline function */
 
