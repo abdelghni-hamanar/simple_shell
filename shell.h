@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <limits.h>
-#include <linux/limits.h>
 #include <string.h>
 #include <sys/types.h>
 #include <sys/wait.h>

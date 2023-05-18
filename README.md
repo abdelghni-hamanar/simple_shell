@@ -1,1 +1,1 @@
-simple shell project by abdelghni  and EMOH
+simple shell project by abdelghni  and Emohamedd
