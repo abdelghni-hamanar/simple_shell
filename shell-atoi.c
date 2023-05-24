@@ -1,5 +1,5 @@
 #include "shell.h"
-
+/* Created By Abdelghni Hamanar and Emohammed*/
 /**
  * _interactive - check if shell is interactive
  * @info: pointer to the struct contains info

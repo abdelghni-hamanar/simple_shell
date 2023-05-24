@@ -1,4 +1,5 @@
 #include "shell.h"
+/* Created By Abdelghni Hamanar and Emohammed*/
 /**
  * _myexit - exit the shell
  * @info: struct for potential arguments

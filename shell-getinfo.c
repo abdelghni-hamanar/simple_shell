@@ -1,5 +1,5 @@
 #include "shell.h"
-
+/* Created By Abdelghni Hamanar and Emohammed*/
 /**
 * _clear_info - init info struct
 * @info: struct of params

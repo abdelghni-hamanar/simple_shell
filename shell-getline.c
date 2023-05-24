@@ -1,5 +1,5 @@
 #include "shell.h"
-
+/* Created By Abdelghni Hamanar and Emohammed*/
 /**
 * _input_buf - buffer chained
 * @info: struct of params
@@ -158,6 +158,6 @@ int _getline(info_t *info, char **ptr, size_t *lenght)
 void _sigintHandler(__attribute__((unused)) int sig)
 {
 	_puts("\n");
-	_puts("$ ");
+	_puts("AH-EM$: ");
 	_putchar(BUF_FLUSH);
 }
